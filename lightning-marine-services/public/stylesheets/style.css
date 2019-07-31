@@ -1,8 +1,22 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+  	font-family:sans-serif;
+  	color: #505962;
+}
+.navbar {
+	text-transform:uppercase;
+	background-color: #505962;
+}
+.home-inner {
+	background-image: url('images/royalbean.jpg');
 }
 
 a {
   color: #00B7FF;
 }
+
+.navbar-brand img {
+	height: 2rem;
+}
+
+

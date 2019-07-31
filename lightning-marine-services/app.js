@@ -9,9 +9,17 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.engine('ejs', require('ejs-locals'));
+app.use(myLogger);
+var myLogger = function (req, res, next) {
+	console.log('LOGGED', req.url);
+	next();
+}
+
 
 app.use(logger('dev'));
 app.use(express.json());
