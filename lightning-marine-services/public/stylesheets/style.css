@@ -3,14 +3,165 @@ body {
   	font-family:sans-serif;
   	color: #505962;
 }
+
 .navbar {
 	text-transform:uppercase;
 	background-color: #505962;
 }
-.home-inner {
-	background-image: url('images/royalbean.jpg');
+
+.navbar-brand img{
+	height:2rem;
 }
 
+.home-inner {
+	background-image: url('https://www.srilankafoundation.org/wp-content/uploads/2016/05/LogisticsSL.jpg');
+}
+#about {
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+
+h3.heading {
+	text-align: center;
+	font-size:1.9rem;
+	text-transform:uppercase
+	margin-top:3rem;
+	margin-bottom: 1.9rem;
+	
+}
+
+
+.section p{
+	text-align:center;
+	width:50%;
+	margin:0 auto;
+}
+
+.carousel {
+  width:800px;
+  height:480px;
+  margin:0 auto;
+}
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top:40%;
+	z-index:1;
+}
+
+.caption h1{
+	color:white;
+	text-transform:uppercase;
+}
+
+.caption h3{
+	color:white;
+	font-size:2.4rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	padding: .5rem 1.1rem;
+	font-size: .9rem;
+}
+
+.jumbotron {
+	width:100%;
+	background-color: transparent;
+}
+
+.btn {
+	border-width: medium;
+	border-radius:0;
+	text-transform:uppercase;
+	margin-top: 3rem;
+}
+
+
+.padding {
+	padding: 2rem 0;
+}
+
+
+
+.services{
+	background:#white;
+	text-align:center;
+}
+
+.services h1{
+	display: inline-block;
+	text-transform:uppercase;
+	border-bottom:4px solid #3498db;
+	font-size:20px;
+	padding-bottom: 10px;
+	margin-top: 40px;
+}
+
+.cen{
+	max-width:1200px;
+	margin:auto;
+	overflow:hidden;
+	padding:20px;	
+}
+
+.services{
+	margin-top:15rem;
+}
+.service{
+	display:inline-block;
+	width:calc(100%/3);
+	margin: 0 -2px;
+	padding:20px;
+
+	box-sizing:border-box;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.service{
+	vertical-align: top;
+}
+
+.service:hover{
+	background: #ddd;
+}
+.service i{
+	color:#3498db;
+	font-size:34px;
+	margin-bottom:30px;
+}
+.service h2{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight:500;
+	margin:0;
+}
+.service p{
+	color:gray;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+
+img.portfolio {
+	max-width:100%;
+}
+.no-padding .col-md-6 {
+	padding: 0;
+}
+.card{
+	margin: 2rem;
+}
+.footer .row{
+	background-color: #505962;
+	padding: 1rem 2rem 3rem;
+	color:white;
+}
+.footer img{
+	height: 2rem;
+	margin:1.5rem 0;
+}
 a {
   color: #00B7FF;
 }
@@ -19,4 +170,34 @@ a {
 	height: 2rem;
 }
 
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
 
