@@ -15,6 +15,10 @@ body {
 	background-color: #505962;
 }
 
+#fs-frm{
+	size:90px;
+}
+
 .navbar-brand img{
 	height:2rem;
 }
@@ -23,40 +27,33 @@ body {
 	text-align:center;
 }
 
-.jumbotron{
-	color:white;
-	background-image: url("/images/dock2.jpg");
-	padding: 25%;
-	background-repeat: no-repeat;
+.jumbotron-fluid{
+	background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/2czqMab/ocean-bow-wave-wake-pacific-ocean-blue-water-hd-7846_nyve4jcl__F0000.png');
+	padding: 15%;
+	background-size: no-repeat;
 	background-size: cover;
+	height: 350px;
 	width: 100%;
-	margin-top: -40px;
+   	margin-top:-10px;
 	background-attachment: fixed;
-	background-position: center -238px;
-}
-
-.jumbotron h1{
-	position: absolute;
+	background-position: center -140px;
+	color:white;
+	font-weight:bold;
 	text-align:center;
-	color: white;
-	text-transform:uppercase;
-	margin-top:5rem;
-	font-size:52px;
 }
 
-.jumbotron p{
-	font-weight: bold;
+
+.home-inner {
+	background-image: url('https://www.srilankafoundation.org/wp-content/uploads/2016/05/LogisticsSL.jpg');
 }
+
 
 h1#lms.heading {
-	margin-top:5rem;
 	text-align:center;
 	text-transform:uppercase;
 }
 
 #about {
-	margin-top:5rem;
-	margin-bottom:5rem;
 
 }
 
@@ -70,6 +67,7 @@ h1#lms.heading {
 .services-section{
 	background-size:cover;
 	padding:60px 0;
+	margin-left:3rem;
 }
 .inner-width{
 	width:100%;
@@ -80,6 +78,7 @@ h1#lms.heading {
 }
 .section-title{
 	text-align:center;
+	margin-right:3rem;
 	text-transform:uppercase;
 	font-size:30px;
 
@@ -87,6 +86,7 @@ h1#lms.heading {
 .border{
 	width:160px;
 	height:2px;
+
 	background:#00a7be;
 	margin:40px auto;
 
@@ -216,7 +216,7 @@ margin: 0 auto;
 }
 
 @media only screen and (max-width:768px){
-    
+
     .col1, .col2{
         width:50%;
     }
@@ -274,11 +274,21 @@ margin: 0 auto;
 .contactmaps{
 	text-align:center;
 	padding-right:150px;
+	margin-top:15rem;
 }
 
 #contactmaps h2{
 	margin-left:9rem;
 }
+
+#contact-us {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
 
 h2{
 	margin-bottom:2rem;
@@ -308,7 +318,7 @@ img.portfolio {
 	margin-top:1rem;
 }
 .footer .row{
-	margin-top:5rem;
+	margin-top:10rem;
 	background-color: #505962;
 	padding: 1rem 2rem 3rem;
 	color:white;
@@ -326,15 +336,15 @@ a {
 }
 
 /*--- iOS Landing Page Fix --*/
-/*.landing {
+.landing {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: table;
   background: #E9ECEF;
   z-index: -1;
-}*/
-/*.home-wrap {
+}
+.home-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
   top: 0;
@@ -355,4 +365,4 @@ a {
           transform: translateZ(0);
   will-change: transform;
 }
-*/
+
