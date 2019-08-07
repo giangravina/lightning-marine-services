@@ -318,14 +318,24 @@ img.portfolio {
 	margin-top:1rem;
 }
 .footer .row{
-	margin-top:10rem;
+
+	margin-top:15rem;
 	background-color: #505962;
 	padding: 1rem 2rem 3rem;
 	color:white;
+
+}
+
+.footer {
+
+	position:absolute;
+}
 }
 .footer img{
 	height: 2rem;
 	margin:1.5rem 0;
+
+	position:absolute;
 }
 a {
   color: #00B7FF;

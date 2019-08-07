@@ -317,11 +317,16 @@ img.portfolio {
 	margin-right:5rem;
 	margin-top:1rem;
 }
+
+
 .footer .row{
 	margin-top:10rem;
 	background-color: #505962;
 	padding: 1rem 2rem 3rem;
 	color:white;
+	position:absolute;
+   bottom:0;
+   width:100%;
 }
 .footer img{
 	height: 2rem;
