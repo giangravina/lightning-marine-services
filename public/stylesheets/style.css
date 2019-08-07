@@ -249,7 +249,7 @@ margin: 0 auto;
    right: 50%;
    background-color: #f4f4f4
 }
-.col1{
+#nav-map{
    position: relative;
    overflow: hidden;
    float: left;
@@ -257,7 +257,7 @@ margin: 0 auto;
    left: 101%;
    background-color: #e6e6e6
 }
-.col2{
+#message-form{
    position: relative;
    overflow: hidden;
    float: left;
