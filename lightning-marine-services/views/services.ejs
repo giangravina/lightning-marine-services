@@ -1,126 +1,52 @@
 <% layout('/layout') %>
-
-<div class="card-group">
-	<h3>Services</h3>
-  <div class="card">
-  	<br>
-    <i class="fa fa-anchor"></i>
-	<div class="card-body">
-      <h5 class="card-title">Dock Services</h5>
-      <p class="card-text">Our dock services include but are not limited to:
-      	<ul>Receiving/Warehouse/Delivery</ul>
-      	<ul>Hot Shot Service (within All Florida Ports)</ul><ul>Storing Gangs/ Labor per hour</ul>
-      	<ul>A/C Repairs/ Service</ul>
-      	<ul>Crane services</ul>
-      	<ul>Procurement</ul>
-      	<ul>Bilge/ Vacuum trucks/ Sludge/Slops removal</ul>
-      	<ul>Metal works/ Machine Shop</ul>
-      	<ul>Much more!</ul>
-</p>
-    </div>
-  </div>
-    <div class="card">
-    	<br>
-    <i class="fas fa-truck"></i>
-    <div class="card-body">
-      <h5 class="card-title">Transportation</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <ul>Refrigerated truck for business use/Groceries pickup.</ul>
-      <ul>Freight Forwarding</ul>
-      <ul>Medical Supplies</ul>
-      <ul>Medical transportation services</ul>
-      <ul></ul>
-    </div>
-  </div>
-  <div class="card">
-  	<br>
-    <i class="fa fa-recycle"></i>
-	<div class="card-body">
-      <h5 class="card-title">Pest Control & Waste Management</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <ul>Extermination</ul>
-      <ul>Other services available upon reques</ul>
-    </div>
-  </div>
+<% block('title', 'Lightning Marine Services')%>
+<div class="container-fluid mission" id="about">
+	<h3 class="heading">Services We Offer</h3>
+	<div class="border"></div>
+	
+	<main>
+		<div class="col col1">
+			<i class="fa fa-anchor fa-2x"></i>
+			<br>
+			<br>
+			<h2>Dock Services</h2>
+			<p class="card-text">Our dock services include but are not limited to:</p>
+			<ul class="list-group list-group-flush">
+  <li class="list-group-item">Storing Gangs/ Labor per hour</li>
+  <li class="list-group-item">A/C Repairs/ Service</li>
+  <li class="list-group-item">Crane services</li>
+  <li class="list-group-item">Procurement</li>
+  <li class="list-group-item">Bilge/Vacuum trucks/ Sludge/Slops removal</li>
+  <li class="list-group-item">Metal works/ Machine Shop</li>
+  <li class="list-group-item">More!</li>
+</ul>
 </div>
 
 
+<div class="col col2">
+<i class="fas fa-truck fa-2x"></i>
+<br>
+<br>
+<h2>Transportation</h2>
+<p>We have multiple trucks on-site, ready for your service.</p>
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">Receiving/Warehouse/Delivery</li>
+  <li class="list-group-item">Refrigerated truck for business use/Groceries pickup</li>
+  <li class="list-group-item">Freight Forwarding</li>
+  <li class="list-group-item">Procurement</li>
+  <li class="list-group-item">Medical Supplies</li>
+  <li class="list-group-item">Medical transportation services</li>
+  <li class="list-group-item">Hot Shot Service (within All Florida Ports)</li>
 
-<!-- <div class="services" id="services">
-	<h3 class="heading">Services</h3>
-	<div class="cen">
-	</div>
-		<div class="service">
-			<i class="fas fa-truck"></i>
-			<h2>Receiving/Warehouse/Delivery</h2>
-		</div>
-		<div class="service">
-			<i class="fa fa-truck"></i>
-			<h2>Hot Shot Service (within All Florida Ports)</h2>
-		</div>
-		<div class="service">
-			<i class="fa fa-truck"></i>
-			<h2>Refrigerated truck for business use/Groceries pickup.</h2>
-		</div>
-		<div class="service">
-			<i class="fa fa-truck"></i>
-			<h2>Bilge/ Vacuum trucks/ Sludge/Slops removal</h2>
-		</div>
-		<div class="service">
-			<i class="fa fa-truck"></i>
-			<h2>Medical transportation services</h2>
-		</div>
-		<div class="service">
-			<i class="fa fa-truck"></i>
-			<h2>Procurement</h2>
-		</div>
-		<div class="service">
-			<i class="fa fa-recycle"></i>
-			<h2>Garbage pickup (Domestic & International</h2>
-		</div>
-		<div class="service">
-			<i class="fa fa-tshirt"></i>
-			<h2>Laundry per Pound</h2>
-		</div>
-		<div class="service">
-			<i class="fas fa-store-alt"></i>
-			<h2>Storing Gangs/ Labor per hour</h2>
-		</div>
-		<div class="service">
-			<i class="fas fa-temperature-low"></i>
-			<h2>A/C Repairs/ Service</h2>
-		</div>
-		<div class="service">
-			<i class="fa fa-spider"></i>
-			<h2>Extermination</h2>
-		</div>
-		<div class="service">
-			<i class="fas fa-hard-hat"></i>
-			<h2>Crane services</h2>
-		</div>
-		<div class="service">
-			<i class="fas fa-bug"></i>
-			<h2>Pest Control</h2>
-		</div>
-		<div class="service">
-			<i class="fas fa-briefcase-medical"></i>
-			<h2>Medical Supplies</h2>
-		</div>
-		<div class="service">
-			<i class="fas fa-train"></i>
-			<h2>Freight Forwarding</h2>
-		</div>
-		<div class="service">
-			<i class="fas fa-drum-steelpan"></i>
-			<h2>Metal works/ Machine Shop</h2>
-		</div>
-		<div class="service">
-			<i class="fa fa-anchor"></i>
-			<h2>Other services available upon request</h2>
-		</div>
-		<div class="service">
-			<i class="fa fa-anchor"></i>
-			<h2>Other services available upon request</h2>
-		</div>
-	</div>
-</div> -->
+</div>
+<div class="col col3">
+<i class="fa fa-recycle fa-2x"></i>
+<br>
+<br>
+<h2>Pest Control</h2>
+<p>Pest Control for your company, made easy.</p>
+			<ul class="list-group list-group-flush">
+  <li class="list-group-item">Extermination</li>
+  <li class="list-group-item">Pest Control</li>
+  <li class="list-group-item">Other services available upon request</li>
+</main>

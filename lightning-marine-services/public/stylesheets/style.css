@@ -1,3 +1,9 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
 body {
 	overflow-x: hidden;
   	font-family:sans-serif;
@@ -13,10 +19,14 @@ body {
 	height:2rem;
 }
 
+.contact-heading h4{
+	text-align:center;
+}
+
 .jumbotron{
 	color:white;
-	background-image: url("/images/dock.jpg");
-	padding: 20%;
+	background-image: url("/images/dock2.jpg");
+	padding: 25%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -26,12 +36,22 @@ body {
 }
 
 .jumbotron h1{
-	text-align:left;
-	font-weight: bold;
+	position: absolute;
+	text-align:center;
+	color: white;
+	text-transform:uppercase;
+	margin-top:5rem;
+	font-size:52px;
 }
 
 .jumbotron p{
-	font-weight:bold;
+	font-weight: bold;
+}
+
+h1#lms.heading {
+	margin-top:5rem;
+	text-align:center;
+	text-transform:uppercase;
 }
 
 #about {
@@ -42,12 +62,83 @@ body {
 
 #about h3{
 	text-align:center;
-	margin-top:1.9rem;
+	text-transform:uppercase;
+	font-size:30px;
+	margin-top:10rem;
+}
+
+.services-section{
+	background-size:cover;
+	padding:60px 0;
+}
+.inner-width{
+	width:100%;
+	max-width:1200px;
+	margin:auto;
+	padding: 0 20px;
+	overflow:hidden;
+}
+.section-title{
+	text-align:center;
+	text-transform:uppercase;
+	font-size:30px;
+
+}
+.border{
+	width:160px;
+	height:2px;
+	background:#00a7be;
+	margin:40px auto;
+
+}
+.services-container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.service-box{
+	max-width:33.33%;
+	padding:10px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.service-icon{
+	display:inline-block;
+	width:70px;
+	height:70px;
+	border: 3px solid #00a7be;
+	color: #82ccdd;
+	transform: rotate(45deg);
+	margin-bottom: 30px;
+	margin-top:16px;
+	transition: 0.3s linear;
+}
+
+.service-icon i{
+	line-height: 70px;
+	transform: rotate(-45deg);
+	font-size:20px;
+}
+
+
+.service-box:hover .service-icon{
+	background: #00a7be;
+	color: #ddd;
+}
+
+.service-title{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	font-weight:bold;
 }
 
 
 .section p{
-	text-align:center;
+	text-indent: 50px;
+	text-align: justify;
 	width:50%;
 	margin:0 auto;
 	margin-top:1.9rem;
@@ -60,6 +151,10 @@ body {
   margin-bottom:15rem;
 }
 
+.carousel h3{
+	text-align:center;
+}
+
 
 .maps{
 	margin-top: 10rem;
@@ -70,63 +165,136 @@ body {
 	margin-bottom:2rem;
 }
 
+.fa-hard-hat{
+	color:#505962;
+}
+
+.fa-camera{
+	color:#505962;
+}
+
+.fa-phone{
+	color:#505962;
+}
 
 .fa-anchor {
 	text-align:center;
-	color: blue;
+	color: #00a7be;
 }
 
 .fa-truck {
 	text-align:center;
-	color: blue;
+	color: #00a7be;
 
 }
 
 .fa-recycle {
 	text-align:center;
-	color:blue;
+	color:#00a7be;
 }
 
-.column {
-  float: left;
-  width: 50%;
+main{
+  width:94.75%;
+margin: 0 auto;
+ overflow: hidden;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.col{
+    width: 33.333%;
+    height:500px;
+    float: left;
+    text-align: center;
+    padding:1rem;
+}
+
+.col p{
+	text-align:justify;
+}
+
+.col ul{
+	text-align:justify;
+}
+
+@media only screen and (max-width:768px){
+    
+    .col1, .col2{
+        width:50%;
+    }
+    .col3{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .col{
+       float: none;
+        width:100%;
+    }
+}
+
+
+.leftside, .rightside {
+
+	height:50vh;
+	width:100%;
+	font-size:20px;
 }
 
 
 
-#contact-us {
-	text-align: center;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 18px;
-	font-weight:500;
-	margin:0;
-	margin-top: 10rem;
-	margin-bottom: 10rem;
-	padding-left:40px;
+@media screen and (min-width:768px)
+{
+
+	.leftside, .rightside {
+
+/*		height:70vh;
+*/	}
+
 
 }
 
-#contact-us h2{
-	margin-bottom:1.9rem;
+
+
+
+.leftside {
+}
+
+
+.rightside {
+}
+
+
+}
+
+#contact-title h4{
+	text-align:center;
+
 }
 
 .contactmaps{
 	text-align:center;
-	margin-top:10rem;
 	padding-right:150px;
+}
+
+#contactmaps h2{
+	margin-left:9rem;
 }
 
 h2{
 	margin-bottom:2rem;
+	text-align:center;
+}
+
+h4{
+	text-align:center;
+}
+
+.label-title{
+	margin-left:5rem;
+}
+
+.label-title3{
+	margin-left:4rem;
 }
 
 img.portfolio {
@@ -136,11 +304,11 @@ img.portfolio {
 	padding: 0;
 }
 .card{
-	margin: 2rem;
-	margin-top:10rem;
+	margin-right:5rem;
+	margin-top:1rem;
 }
 .footer .row{
-	margin-top:10rem;
+	margin-top:5rem;
 	background-color: #505962;
 	padding: 1rem 2rem 3rem;
 	color:white;
