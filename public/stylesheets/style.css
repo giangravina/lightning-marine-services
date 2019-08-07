@@ -215,56 +215,10 @@ margin: 0 auto;
 	text-align:justify;
 }
 
-@media only screen and (max-width:768px){
-
-    .col1, .col2{
-        width:50%;
-    }
-    .col3{
-        width:100%;
-    }
-}
-
-@media only screen and (max-width:480px){
-    .col{
-       float: none;
-        width:100%;
-    }
-}
-
-
-.leftside, .rightside {
-
-	height:50vh;
-	width:100%;
-	font-size:20px;
-}
-
-
-
-@media screen and (min-width:768px)
-{
-
-	.leftside, .rightside {
-
-/*		height:70vh;
-*/	}
-
-
-}
 
 
 
 
-.leftside {
-}
-
-
-.rightside {
-}
-
-
-}
 
 #contact-title h4{
 	text-align:center;
@@ -287,6 +241,29 @@ margin: 0 auto;
 	margin-left: auto;
 	margin-right: auto;
 
+}
+
+.colleft{
+   position: relative;
+   width: 100%;
+   right: 50%;
+   background-color: #f4f4f4
+}
+.col1{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 48%;
+   left: 101%;
+   background-color: #e6e6e6
+}
+.col2{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 48%;
+   left: 3%;
+   background-color: #e6e6e6
 }
 
 
@@ -318,19 +295,26 @@ img.portfolio {
 	margin-top:1rem;
 }
 
+/* Portrait and Landscape */
 
 .footer .row{
 	margin-top:10rem;
 	background-color: #505962;
 	padding: 1rem 2rem 3rem;
 	color:white;
-	position:absolute;
-   bottom:0;
-   width:100%;
 }
 .footer img{
 	height: 2rem;
 	margin:1.5rem 0;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+.footer .row{
+	position:absolute;
 }
 a {
   color: #00B7FF;
