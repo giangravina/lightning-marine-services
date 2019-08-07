@@ -1,0 +1,368 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	overflow-x: hidden;
+  	font-family:sans-serif;
+  	color: #505962;
+}
+
+.navbar {
+	text-transform:uppercase;
+	background-color: #505962;
+}
+
+#fs-frm{
+	size:90px;
+}
+
+.navbar-brand img{
+	height:2rem;
+}
+
+.contact-heading h4{
+	text-align:center;
+}
+
+.jumbotron-fluid{
+	background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/2czqMab/ocean-bow-wave-wake-pacific-ocean-blue-water-hd-7846_nyve4jcl__F0000.png');
+	padding: 15%;
+	background-size: no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+   	margin-top:-10px;
+	background-attachment: fixed;
+	background-position: center -140px;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+.home-inner {
+	background-image: url('https://www.srilankafoundation.org/wp-content/uploads/2016/05/LogisticsSL.jpg');
+}
+
+
+h1#lms.heading {
+	text-align:center;
+	text-transform:uppercase;
+}
+
+#about {
+
+}
+
+#about h3{
+	text-align:center;
+	text-transform:uppercase;
+	font-size:30px;
+	margin-top:10rem;
+}
+
+.services-section{
+	background-size:cover;
+	padding:60px 0;
+	margin-left:3rem;
+}
+.inner-width{
+	width:100%;
+	max-width:1200px;
+	margin:auto;
+	padding: 0 20px;
+	overflow:hidden;
+}
+.section-title{
+	text-align:center;
+	margin-right:3rem;
+	text-transform:uppercase;
+	font-size:30px;
+
+}
+.border{
+	width:160px;
+	height:2px;
+
+	background:#00a7be;
+	margin:40px auto;
+
+}
+.services-container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.service-box{
+	max-width:33.33%;
+	padding:10px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.service-icon{
+	display:inline-block;
+	width:70px;
+	height:70px;
+	border: 3px solid #00a7be;
+	color: #82ccdd;
+	transform: rotate(45deg);
+	margin-bottom: 30px;
+	margin-top:16px;
+	transition: 0.3s linear;
+}
+
+.service-icon i{
+	line-height: 70px;
+	transform: rotate(-45deg);
+	font-size:20px;
+}
+
+
+.service-box:hover .service-icon{
+	background: #00a7be;
+	color: #ddd;
+}
+
+.service-title{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+
+
+.section p{
+	text-indent: 50px;
+	text-align: justify;
+	width:50%;
+	margin:0 auto;
+	margin-top:1.9rem;
+}
+
+.carousel {
+  width:800px;
+  height:480px;
+  margin:0 auto;
+  margin-bottom:15rem;
+}
+
+.carousel h3{
+	text-align:center;
+}
+
+
+.maps{
+	margin-top: 10rem;
+	text-align:center;
+}
+
+.maps h3{
+	margin-bottom:2rem;
+}
+
+.fa-hard-hat{
+	color:#505962;
+}
+
+.fa-camera{
+	color:#505962;
+}
+
+.fa-phone{
+	color:#505962;
+}
+
+.fa-anchor {
+	text-align:center;
+	color: #00a7be;
+}
+
+.fa-truck {
+	text-align:center;
+	color: #00a7be;
+
+}
+
+.fa-recycle {
+	text-align:center;
+	color:#00a7be;
+}
+
+main{
+  width:94.75%;
+margin: 0 auto;
+ overflow: hidden;
+}
+
+.col{
+    width: 33.333%;
+    height:500px;
+    float: left;
+    text-align: center;
+    padding:1rem;
+}
+
+.col p{
+	text-align:justify;
+}
+
+.col ul{
+	text-align:justify;
+}
+
+@media only screen and (max-width:768px){
+
+    .col1, .col2{
+        width:50%;
+    }
+    .col3{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .col{
+       float: none;
+        width:100%;
+    }
+}
+
+
+.leftside, .rightside {
+
+	height:50vh;
+	width:100%;
+	font-size:20px;
+}
+
+
+
+@media screen and (min-width:768px)
+{
+
+	.leftside, .rightside {
+
+/*		height:70vh;
+*/	}
+
+
+}
+
+
+
+
+.leftside {
+}
+
+
+.rightside {
+}
+
+
+}
+
+#contact-title h4{
+	text-align:center;
+
+}
+
+.contactmaps{
+	text-align:center;
+	padding-right:150px;
+	margin-top:15rem;
+}
+
+#contactmaps h2{
+	margin-left:9rem;
+}
+
+#contact-us {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+h2{
+	margin-bottom:2rem;
+	text-align:center;
+}
+
+h4{
+	text-align:center;
+}
+
+.label-title{
+	margin-left:5rem;
+}
+
+.label-title3{
+	margin-left:4rem;
+}
+
+img.portfolio {
+	max-width:100%;
+}
+.no-padding .col-md-6 {
+	padding: 0;
+}
+.card{
+	margin-right:5rem;
+	margin-top:1rem;
+}
+.footer .row{
+	margin-top:10rem;
+	background-color: #505962;
+	padding: 1rem 2rem 3rem;
+	color:white;
+}
+.footer img{
+	height: 2rem;
+	margin:1.5rem 0;
+}
+a {
+  color: #00B7FF;
+}
+
+.navbar-brand img {
+	height: 2rem;
+}
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
