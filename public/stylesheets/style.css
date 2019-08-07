@@ -297,6 +297,10 @@ img.portfolio {
 
 /* Portrait and Landscape */
 
+.footer{
+	clear:both;
+}
+
 .footer .row{
 	margin-top:10rem;
 	background-color: #505962;
@@ -313,8 +317,10 @@ img.portfolio {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
-.footer .row{
-	position:absolute;
+	.footer .row{
+		position:absolute;
+	}
+
 }
 a {
   color: #00B7FF;
