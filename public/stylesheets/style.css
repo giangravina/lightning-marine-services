@@ -61,7 +61,7 @@ h1#lms.heading {
 	text-align:center;
 	text-transform:uppercase;
 	font-size:30px;
-	margin-top:10rem;
+	margin-top:5rem;
 }
 
 .services-section{
@@ -155,6 +155,11 @@ h1#lms.heading {
 	text-align:center;
 }
 
+
+.gmaps{
+	text-align:center;
+	margin-top:5rem;
+}
 
 .maps{
 	margin-top: 10rem;
@@ -299,6 +304,7 @@ img.portfolio {
 
 .footer{
 	clear:both;
+	margin-top:10rem;
 }
 
 .footer .row{
