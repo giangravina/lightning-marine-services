@@ -5,6 +5,7 @@
 }
 
 body {
+	background-color:#E8E8E8;
 	overflow-x: hidden;
   	font-family:sans-serif;
   	color: #505962;
@@ -64,7 +65,7 @@ h1#lms.heading {
 .services-section{
 	background-size:cover;
 	padding:60px 0;
-	margin-left:3rem;
+	margin-left:2.5rem;
 }
 .inner-width{
 	width:100%;
@@ -262,7 +263,6 @@ margin: 0 auto;
    float: left;
    width: 48%;
    left: 92%;
-   background-color: white;
    margin-bottom:10rem;
 }
 #message-form{
@@ -271,7 +271,6 @@ margin: 0 auto;
    float: left;
    width: 48%;
    left: 8%;
-   background-color: white;
    margin-bottom:10rem;
 }
 
