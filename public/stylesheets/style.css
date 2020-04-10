@@ -26,7 +26,7 @@ body {
 }
 
 .jumbotron-fluid{
-	background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/2czqMab/ocean-bow-wave-wake-pacific-ocean-blue-water-hd-7846_nyve4jcl__F0000.png');
+	background-color: darkcyan;
 	padding: 15%;
 	background-size: no-repeat;
 	background-size: cover;
